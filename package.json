@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/mastama/hapi-webserver/issues"
   },
-  "homepage": "https://github.com/mastama/hapi-webserver#readme"
+  "homepage": "https://github.com/mastama/hapi-webserver#readme",
+  "dependencies": {
+    "@hapi/hapi": "^21.3.2"
+  }
 }
