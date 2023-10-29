@@ -14,3 +14,4 @@ Step for using Hapi:
 
 1. npm install @hapi/hapi
 2. request handler dituliskan di dalam route configuration? Yap benar! Handler pada Hapi dipisahkan berdasarkan route yang ada. Setiap spesifikasi route memiliki handler-nya masing-masing. Dengan begitu, tentu kode akan lebih mudah dikelola. Anda bisa mengatakan selamat tinggal pada if else yang bersarang.
+3. menetapkan lebih dari satu route configuration dalam method server.route()
