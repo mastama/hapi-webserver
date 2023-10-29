@@ -1,0 +1,24 @@
+{
+  "name": "hapi-webserver",
+  "version": "1.0.0",
+  "description": "Membangun Web Server menggunakan Hapi",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mastama/hapi-webserver.git"
+  },
+  "keywords": [
+    "hapi",
+    "nodejs"
+  ],
+  "author": "Singgih Pratama",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mastama/hapi-webserver/issues"
+  },
+  "homepage": "https://github.com/mastama/hapi-webserver#readme"
+}
