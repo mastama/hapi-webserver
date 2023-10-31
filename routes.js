@@ -33,6 +33,12 @@ const routes = [
         path: "/hello/{name?}",
         handler: (request, h) => {
             const {name = "stranger"} = request.params;
+            //penggunaan QUERY PARAMETER
+            const {language} = request.query;
+            if (language === "idn") {
+                return `Heii bro, ${name}!`; //> http://localhost:5000/hello/mastama?language=idn
+            }
+
             return `Hello, ${name}!`;
         }
     },
